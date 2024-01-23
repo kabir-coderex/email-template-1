@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.highlight-text{
+    color: #F75C42;
+}
+#template-wrapper{
+    width: 600px;
+    margin: 20px auto;
+    background: #E8E1D8;
+    padding: 0 24px 24px 30px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
+}
+
+.hero-products-section-wrapper{
+    border: 1px solid #F75C42;
+    border-radius: 20px;
+}
+
+.hero-products-section-wrapper #hero-section{
+    background: #FBF5ED;
+    padding: 38px 40px;
+    border-radius: 20px 20px 0 0;
+}
+
+.hero-products-section-wrapper #hero-section h1.title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #222222;
+    margin-bottom: 25px;
+}
+.hero-products-section-wrapper #hero-section .description p{
+    color: #0B1B1B;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.hero-products-section-wrapper #hero-section .description p:first-child{
+    margin-bottom: 23px;
+}
+
+.hero-products-section-wrapper #hero-section .description p:last-child{
+    margin-top: 23px;
+}

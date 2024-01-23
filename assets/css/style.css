@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 
 *{
     padding: 0;
@@ -8,6 +10,25 @@
 .highlight-text{
     color: #F75C42;
 }
+button{
+    border-radius: 100px;
+    background: #222;
+    padding: 17px 30px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+.button-wrapper{
+    text-align: center;
+    margin-top: 30px;
+}
+
 #template-wrapper{
     width: 600px;
     margin: 20px auto;
@@ -47,7 +68,7 @@ header{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 28px;
 }
 
 .hero-products-section-wrapper #hero-section .description p:first-child{
@@ -56,4 +77,167 @@ header{
 
 .hero-products-section-wrapper #hero-section .description p:last-child{
     margin-top: 23px;
+}
+
+.hero-products-section-wrapper #products-section{
+    background: #FFF;
+    border-radius: 0 0 20px 20px;
+    padding: 40px;
+}
+
+.hero-products-section-wrapper #products-section h2.title{
+    color: #353535;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;   
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+
+.hero-products-section-wrapper #products-section .products-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero-products-section-wrapper #products-section .products-wrapper figcaption{
+    margin-top: 18px;
+    color: #353535;
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+}
+
+#feedback-section{
+    border-radius: 20px;
+    background: #222;
+    margin-top: 24px;
+    padding: 40px;
+    color: #FFF;
+}
+
+#feedback-section h2.title{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+#feedback-section p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#feedback-section p:last-child{
+    margin-top: 26px;
+}
+
+#feedback-section button{
+    background-color: #F75C42;
+}
+
+
+#contact-section{
+    background: #FFFFFF;
+    padding: 40px;
+    margin-top: 24px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact-section figure{
+    width: 33%;
+    text-align: center;
+}
+
+#contact-section figure:nth-child(2){
+    border: 1px solid #E8E1D8;
+    border-top: none;
+    border-bottom: none;
+}
+
+#contact-section figure img{
+    width: 36px;
+    height: 36px;
+    
+}
+
+#contact-section figure a{
+    display: block;
+    margin-top: 20px;
+    color: #222;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-decoration-line: underline;
+}
+
+footer #social-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border-bottom: 1px solid #D2C9BE;
+    margin-bottom: 40px;
+}
+
+footer #footer-text p{
+    color: #666;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+footer #footer-text p.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    margin-top: 8px;
+}
+
+footer #footer-text p.footer-links a{
+    color: #666;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
+
+footer #footer-text p.footer-links span{
+    transform: translateY(-40%);
+    font-size: 30px;
+}
+
+footer #copy-right p{
+    color: #666;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0 80px;
 }

@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px){
+    #template-wrapper{
+        max-width: 550px;
+    }
+    .hero-products-section-wrapper #hero-section h1.title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .hero-products-section-wrapper #hero-section .description p:first-child{
+        margin-bottom: 10px;
+    }
+    .hero-products-section-wrapper #hero-section .description p:last-child{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    #template-wrapper{
+        max-width: 100%;
+        margin: 0;
+    }
+    .hero-products-section-wrapper #hero-section,
+    .hero-products-section-wrapper #products-section,
+    #feedback-section{
+        padding: 20px;
+    }
+    .hero-products-section-wrapper #hero-section h1.title{
+        line-height: 36px;
+    }
+    .hero-products-section-wrapper #products-section .products-wrapper{
+        flex-direction: column;
+    }
+    .hero-products-section-wrapper #products-section .products-wrapper figure{
+        width: 80%;
+    }
+    #contact-section figure img{
+        max-width: 100%;
+    }
+
+    footer #copy-right p{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 425px){
+    #contact-section {
+        padding: 20px 10px 20px 0px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #contact-section figure a{
+        font-size: 12px;
+    }
+}

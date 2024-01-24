@@ -101,6 +101,12 @@ header{
     justify-content: space-between;
     gap: 20px;
 }
+.hero-products-section-wrapper #products-section .products-wrapper figure{
+    width: 45%;
+}
+.hero-products-section-wrapper #products-section .products-wrapper figure img{
+    width: 100%;
+}
 
 .hero-products-section-wrapper #products-section .products-wrapper figcaption{
     margin-top: 18px;
